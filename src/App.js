@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {MiBoton} from './componentes/MiBoton';
 
 function App() {
   return (
@@ -15,11 +16,23 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprende React
         </a>
+        <MiBoton />
+        <MiBoton />
+        <MiBoton />
+        
       </header>
+      
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
